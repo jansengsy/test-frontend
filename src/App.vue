@@ -3,7 +3,7 @@
   import HelloWorld from './components/HelloWorld.vue'
   import axios from 'axios';
 
-  const message = ref(""); // Use ref for reactive data
+  const message = ref(""); // Use ref for reactive data 
 
   onMounted(async () => {
     const res = await axios.get("http://localhost:3000/");
